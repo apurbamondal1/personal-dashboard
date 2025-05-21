@@ -13,6 +13,12 @@
         "degree": "D.Pharmacy",
         "institution": "Institute of Pharmacy,kalyani",
         "year": "2023-2025"
+      }  
+    ],
+    "internships": [
+      {
+        "company": "N.Alliance",
+        "duration":"3 months"
       }
     ],
     "skills": ["JavaScript",

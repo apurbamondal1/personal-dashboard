@@ -31,6 +31,21 @@ export default function Academics() {
           </p>
           <p className="text-sm text-gray-500">{profile.education[1]?.year || '2020'}</p>
         </div>
+
+
+        <div className=" pt-20 px-4 pb-10 max-w-3xl mx-auto text-center mb-8">
+          <h2 className="text-2xl font-bold text-indigo-700 flex items-center justify-center gap-2">
+            <GraduationCap className="w-6 h-6" /> Internships
+          </h2>
+          <div className="w-40 h-1 bg-indigo-400 mt-2 mx-auto rounded-full" />
+        </div>
+
+          {/* Internships */}
+        <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-6">
+          <h3 className="text-xl font-semibold text-indigo-600">N. Alliance</h3>
+          <p className="text-sm text-gray-500">Duration:{profile.internships[0].duration}</p>
+        </div>
+
       </main>
     </>
   );
