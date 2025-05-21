@@ -1,20 +1,38 @@
 import Navbar from '../components/Navbar';
 import profile from '../data/profile.json';
+import { GraduationCap } from 'lucide-react'; // optional icon
 
 export default function Academics() {
   return (
     <>
       <Navbar />
-      <div className="p-6">
-        <h2 className="text-xl font-semibold mb-4">Academic Background</h2>
-        <ul className="list-disc list-inside">
-          {profile.education.map((edu, idx) => (
-            <li key={idx}>
-              {edu.degree}, {edu.institution} ({edu.year})
-            </li>
-          ))}
-        </ul>
-      </div>
+      <main className="bg-gray-100 min-h-screen pt-20 px-4 pb-10">
+        <div className="max-w-3xl mx-auto text-center mb-8">
+          <h2 className="text-2xl font-bold text-indigo-700 flex items-center justify-center gap-2">
+            <GraduationCap className="w-6 h-6" /> Academic Background
+          </h2>
+          <div className="w-24 h-1 bg-indigo-400 mt-2 mx-auto rounded-full" />
+        </div>
+
+        {/* Card: BCA */}
+        <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-6 mb-6">
+          <h3 className="text-xl font-semibold text-indigo-600">Bachelor of Computer Applications (BCA)</h3>
+          <p className="text-gray-700 mt-2">
+            {profile.education[0]?.institution || 'XYZ University'}
+          </p>
+          <p className="text-sm text-gray-500">{profile.education[0]?.year || '2022'}</p>
+        </div>
+
+        {/* Card: D.Pharm */}
+        <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-md p-6">
+          <h3 className="text-xl font-semibold text-indigo-600">Diploma in Pharmacy (D.Pharm)</h3>
+          <p className="text-gray-700 mt-2">
+            {profile.education[1]?.institution || 'Govt. College of Pharmacy'}
+          </p>
+          <p className="text-sm text-gray-500">{profile.education[1]?.year || '2020'}</p>
+        </div>
+      </main>
     </>
   );
 }
+

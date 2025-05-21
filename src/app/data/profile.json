@@ -1,17 +1,29 @@
 {
-    "name": "Your Name",
+    "name": "Apurba Mondal",
     "bio": "Aspiring software developer with a passion for full-stack development.",
-    "email": "you@example.com",
-    "phone": "+91-1234567890",
+    "email": "apurba67141@gmail.com",
+    "phone": "+91-8159071990",
     "education": [
       {
         "degree": "BCA",
-        "institution": "ABC University",
-        "year": "2023"
+        "institution": "IGNOU University",
+        "year": "2022-2025"
+      },
+      {
+        "degree": "D.Pharmacy",
+        "institution": "Institute of Pharmacy,kalyani",
+        "year": "2023-2025"
       }
     ],
-    "skills": ["JavaScript", "React", "Node.js", "MongoDB", "C++"],
-    "goals": "Become a full-stack developer at a top tech company.",
-    "hobbies": ["Coding", "Reading", "Gaming"]
+    "skills": ["JavaScript",
+    "React",
+    "Next.js",
+    "MongoDB",
+    "PostgreSQL",
+    "TypeScript",
+    "Docker"
+  ],
+    "goals": "Become a Fullstaack Developer and do something good for the world",
+    "hobbies": ["Coding", "Reading", "Travel","Work"]
   }
   
