@@ -1,0 +1,17 @@
+{
+    "name": "Your Name",
+    "bio": "Aspiring software developer with a passion for full-stack development.",
+    "email": "you@example.com",
+    "phone": "+91-1234567890",
+    "education": [
+      {
+        "degree": "BCA",
+        "institution": "ABC University",
+        "year": "2023"
+      }
+    ],
+    "skills": ["JavaScript", "React", "Node.js", "MongoDB", "C++"],
+    "goals": "Become a full-stack developer at a top tech company.",
+    "hobbies": ["Coding", "Reading", "Gaming"]
+  }
+  
